@@ -10,8 +10,8 @@ import cn.zyf.study.designPattern.create.factoryMethod.impl.Factory;
 public class Test {
 
 	public static void main(String[] args) {
-		IProduct productA = new Factory().CreateProductA();
-		IProduct productB = new Factory().CreateProductB();
+		new Factory().CreateProductA();
+		new Factory().CreateProductB();
 	}
 
 }

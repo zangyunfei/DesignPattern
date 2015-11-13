@@ -4,6 +4,12 @@ import cn.zyf.study.designPattern.create.abstractFactory.IFactory;
 import cn.zyf.study.designPattern.create.abstractFactory.ProductA;
 import cn.zyf.study.designPattern.create.abstractFactory.ProductB;
 
+/**
+ * 生产规格 2 的产品
+ * 
+ * @author admin
+ *
+ */
 public class FactoryTwo implements IFactory {
 
 	public ProductA CreateProductA() {
