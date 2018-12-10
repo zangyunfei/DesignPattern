@@ -3,6 +3,9 @@ package cn.zyf.study.designPattern.create.singleton;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * test
+ */
 public class SingletonTest {
 
 	@Test
